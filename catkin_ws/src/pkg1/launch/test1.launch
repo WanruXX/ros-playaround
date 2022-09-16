@@ -1,0 +1,9 @@
+<launch>
+
+    <rosparam command="load" file="$(find pkg1)/conf/test1.yaml" />
+
+    <node name="node1" pkg="pkg1" type="pkg1_node" output="screen">
+    <remap from="/point_cloud" to="/ssps/FR" />
+    </node>
+
+</launch>

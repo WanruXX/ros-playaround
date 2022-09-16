@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# build folders
+*build*/
+devel/
+.idea/
+.catkin*
+bags/
+results/
